@@ -19,6 +19,6 @@ public class Ex_2_3
         else System.out.println("You have entered not a two-digit number!" );
 
         System.out.println("Your number before swap operation : " + a);
-        System.out.println("Sum of numbers: "  + (10*units + tens));
+        System.out.println("Swaped number: "  + (10*units + tens));
     }
 }
