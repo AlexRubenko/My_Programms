@@ -19,6 +19,9 @@ public class Ex_5_1
         {
             System.out.println("Incorrect value");
         }
+        
+        sc.close();
+        
         System.out.println("Your deposit will exceed 1100 rub after " + numberOfMonths(p) + " months ");
 
         System.out.println("Your deposit sum will reach " + finalDepositSum(p) + " rub after " + numberOfMonths(p) + " months");
