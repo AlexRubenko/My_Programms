@@ -18,8 +18,8 @@ public class Ex_5_3
     {
         if(b>1 && b%b==0 && b%2!=0)
         {
-            System.out.println("Yes, " + b + " is prime number!");
+            System.out.println("True");
         }
-        else System.out.println( b + " isn't prime number!");
+        else System.out.println("False");
     }
 }
